@@ -102,8 +102,8 @@ System.out.println(str);  // Output: Grad Lin
 
 ```java
 String str = "Grad Lin";
-String sub1 = str.substring(5);  // Output: L
-String sub2 = str.substring(5, str.length());  // Output: Lin
+String sub1 = str.substring(5);  // Output: Lin since (5) means (5, str.length().
+String sub2 = str.substring(5, str.length());  // Output: Lin (which is the same as above)
 ```
 
 ### String Comparison
@@ -116,7 +116,7 @@ if (str.equals(str1)) {
     System.out.println("str and str1 are equal");
 } else {
     System.out.println("str and str1 are NOT equal");
-}   // Output: str and str1 are NOT equal
+}   // Output: false, str and str1 are NOT equal, and .equals() returns a boolean.
 
 str1 = str1.substring(0, 8);
 
@@ -130,6 +130,6 @@ if (str.equals(str1)) {
 ### String Operations
 
 ```java
-int x = str.length();
+int x = str.length(); //str="Grad Lin"
 System.out.println(x);  // Output: 8
 ```
