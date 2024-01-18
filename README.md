@@ -66,7 +66,7 @@ while (true) {
 ### For Loops
 
 ```java
-for (int i = start; i < stop; i++) {
+for (int i = start; i < stop; i++) // For loops in Java must be formatted in (start, stop, step) {
     // Your code here
 }
 
@@ -102,7 +102,7 @@ System.out.println(str);  // Output: Grad Lin
 
 ```java
 String str = "Grad Lin";
-String sub1 = str.substring(5);  // Output: Lin since (5) means (5, str.length().
+String sub1 = str.substring(5);  // Output: Lin since (5) means (5, str.length()).
 String sub2 = str.substring(5, str.length());  // Output: Lin (which is the same as above)
 ```
 
