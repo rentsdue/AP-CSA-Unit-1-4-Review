@@ -110,7 +110,7 @@ String sub2 = str.substring(5, str.length());  // Output: Lin
 
 ```java
 String str = "Grad Lin";
-String str1 = "Grad LIn_";
+String str1 = "Grad Lin ";
 
 if (str.equals(str1)) {
     System.out.println("str and str1 are equal");
