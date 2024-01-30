@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         While whileloops=new While();
@@ -24,14 +27,21 @@ public class Main {
         int sum= nestedLoops.altSumOfArray();
         int sum1= nestedLoops.sumOfArray();
         
-        
-
         //Tests
-        System.out.println(answer1);
-        System.out.println(answer2);
-        System.out.println(answer3);
-        System.out.println(answer4);
-        System.out.println(sum);
-        System.out.println(sum1);
+        // System.out.println(answer1);
+        // System.out.println(answer2);
+        // System.out.println(answer3);
+        // System.out.println(answer4);
+        // System.out.println(sum);
+        // System.out.println(sum1);
+
+        String[] newList= new String[4];
+        newList[0]="gradle";
+        newList[1]="nate";
+        newList[2]="patrick";
+        newList[3]="enfiejijwi";
+        System.out.println(newList);
+
+
     }
 }
